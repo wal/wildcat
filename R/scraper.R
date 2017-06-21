@@ -4,7 +4,6 @@ library(precis)
 
 html_files_path <-'data/html/'
 html_files <- list.files(html_files_path, full.names = TRUE)
-#html_files <- c("data/html//M1-British & Irish Lions _ NZ Provincial Barbarians v British & Irish Lions.html")
 
 tour_data <- data.frame()
 
