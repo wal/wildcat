@@ -1,8 +1,9 @@
 library(rvest)
 library(stringr)
 library(precis)
+library(tidyverse)
 
-html_files_path <-'data/html/'
+html_files_path <-'data/html'
 html_files <- list.files(html_files_path, full.names = TRUE)
 
 tour_data <- data.frame()
@@ -18,15 +19,29 @@ for(i in 1:length(html_files)) {
     html_table(header = TRUE, trim = TRUE, fill = TRUE)
   
   lions_performance_data <- lions_performance_table[[1]]
-  lions_performance_data <- lions_performance_data %>% filter(Pos != "Replacements")
-  lions_performance_data$match_html_file = match_file
   
+  # HTML table includes a row to seperate the replacements, remove this 
+  lions_performance_data <- lions_performance_data %>% filter(Pos != "Replacements")
+  
+  # Add in what html file this row came from
+  lions_performance_data$Match_html_file = match_file
+  
+  # Figure out the opposition from the file name and add it as a variable
+  lions_performance_data <- lions_performance_data %>% mutate(Opposition = NA,Opposition = str_match(Match_html_file, "British & Irish Lions _ (.*) v")[,2])
+  
+  # Figure out which tour match from the file name and add it as a variable
+  lions_performance_data <- lions_performance_data %>% mutate(Game = NA,Game = str_match(Match_html_file, "(M[0-9]{1})")[,1])
+  
+  # Clean up player name (as field in table includes substitution info)
+  # TODO - Infer minutes played from substitution info
   lions_performance_data$Player <- sapply(strsplit(as.character(lions_performance_data$Player),'\n'), "[", 1)
+  
+  
   
   tour_data <- rbind(tour_data, lions_performance_data)
 }
 
-names(tour_data) <- c("Position", "Player", "Metres_Gained", "Carries", "Passes", "Tackles", "Missed_Tackles", "Turnovers_Won", "Turnovers_Conceded", "Defenders_Beaten", "Try_Assists", "Offloads", "Clean_Breaks", "Lineouts_Won", "Lineouts_Stolen")
+names(tour_data) <- c("Position", "Player", "Metres_Gained", "Carries", "Passes", "Tackles", "Missed_Tackles", "Turnovers_Won", "Turnovers_Conceded", "Defenders_Beaten", "Try_Assists", "Offloads", "Clean_Breaks", "Lineouts_Won", "Lineouts_Stolen", "Match_Data_File", "Opposition", "Tour Match")
 tour_data$Player <- as.factor(tour_data$Player)
 tour_data$Position <- as.numeric(tour_data$Position)
 tour_data$Metres_Gained <- as.numeric(tour_data$Metres_Gained)
