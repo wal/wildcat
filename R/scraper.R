@@ -67,6 +67,9 @@ tour_data$Clean_Breaks <- as.numeric(tour_data$Clean_Breaks)
 tour_data$Lineouts_Won <- as.numeric(tour_data$Lineouts_Won)
 tour_data$Lineouts_Stolen <- as.numeric(tour_data$Lineouts_Stolen)
 
+# Reorder columns
+names(tour_data) <- c("Position", "Player", "Metres_Gained", "Carries", "Passes", "Tackles", "Missed_Tackles", "Turnovers_Won", "Turnovers_Conceded", "Defenders_Beaten", "Try_Assists", "Offloads", "Clean_Breaks", "Lineouts_Won", "Lineouts_Stolen", "Match_Data_File", "Opposition", "Tour_Match")
+
 
 precis(tour_data)
 
