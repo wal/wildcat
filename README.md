@@ -1,7 +1,7 @@
 Performance data from the 2017 Lions Tour to New Zealand
 Data scraped from lionsrugby.com
 
-Dataset maintained in [data/lions_tour_performance.csv](blob/master/data/lions_tour_performance_data.csv) 
+Dataset maintained in [data/lions_tour_performance.csv](/data/lions_tour_performance_data.csv) 
 
 Available Fields 
 
