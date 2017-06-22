@@ -27,7 +27,9 @@ for(i in 1:length(html_files)) {
   lions_performance_data$Match_html_file = match_file
   
   # Figure out the opposition from the file name and add it as a variable
-  lions_performance_data <- lions_performance_data %>% mutate(Opposition = NA,Opposition = str_match(Match_html_file, "British & Irish Lions _ (.*) v")[,2])
+  lions_performance_data <- lions_performance_data %>% mutate(Opposition = NA,
+                                                              Opposition = str_match(Match_html_file, "British & Irish Lions _ (.*) v")[,2], 
+                                                              Opposition = str_trim(Opposition))
   
   # Figure out which tour match from the file name and add it as a variable
   lions_performance_data <- lions_performance_data %>% mutate(Game = NA,Game = str_match(Match_html_file, "(M[0-9]{1})")[,1])
@@ -41,8 +43,15 @@ for(i in 1:length(html_files)) {
   tour_data <- rbind(tour_data, lions_performance_data)
 }
 
-names(tour_data) <- c("Position", "Player", "Metres_Gained", "Carries", "Passes", "Tackles", "Missed_Tackles", "Turnovers_Won", "Turnovers_Conceded", "Defenders_Beaten", "Try_Assists", "Offloads", "Clean_Breaks", "Lineouts_Won", "Lineouts_Stolen", "Match_Data_File", "Opposition", "Tour Match")
+# Better variable names
+names(tour_data) <- c("Position", "Player", "Metres_Gained", "Carries", "Passes", "Tackles", "Missed_Tackles", "Turnovers_Won", "Turnovers_Conceded", "Defenders_Beaten", "Try_Assists", "Offloads", "Clean_Breaks", "Lineouts_Won", "Lineouts_Stolen", "Match_Data_File", "Opposition", "Tour_Match")
+
+# More useful data types
+# Factors
 tour_data$Player <- as.factor(tour_data$Player)
+tour_data$Opposition <- as.factor(tour_data$Opposition)
+tour_data$Tour_Match <- as.factor(tour_data$Tour_Match)
+# Numbers
 tour_data$Position <- as.numeric(tour_data$Position)
 tour_data$Metres_Gained <- as.numeric(tour_data$Metres_Gained)
 tour_data$Carries <- as.numeric(tour_data$Carries)
@@ -58,10 +67,11 @@ tour_data$Clean_Breaks <- as.numeric(tour_data$Clean_Breaks)
 tour_data$Lineouts_Won <- as.numeric(tour_data$Lineouts_Won)
 tour_data$Lineouts_Stolen <- as.numeric(tour_data$Lineouts_Stolen)
 
+
 precis(tour_data)
 
-
 write.csv(tour_data, file = "data/lions_tour_performance_data.csv")
+save(tour_data,file="data/lions_tour_performance_data.Rda")
 
 
 
