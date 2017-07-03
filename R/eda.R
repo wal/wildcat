@@ -11,7 +11,9 @@ levels(tour_data$Opposition) <- c("NZ Provincial Barbarians",
                                   "Crusaders", 
                                   "Highlanders", 
                                   "Maori All Blacks", 
-                                  "Chiefs"
+                                  "Chiefs",
+                                  "New Zealand",
+                                  "Hurricanes"
                                   )
 
 # Tackles
