@@ -3,6 +3,7 @@ library(precis)
 
 
 tour_data <- read.csv('data/lions_tour_performance_data.csv')
+tour_data$Tour_Match <- factor(tour_data$Tour_Match, levels = c("M1","M2","M3","M4","M5","M6","M7","M8","M9","M10"))
 tour_data$Player <- as.factor(tour_data$Player)
 tour_data$Position <- as.numeric(tour_data$Position)
 tour_data$Team <- factor(tour_data$Team, levels = c("NZ Provincial Barbarians",
@@ -15,24 +16,109 @@ tour_data$Team <- factor(tour_data$Team, levels = c("NZ Provincial Barbarians",
                                                     "Hurricanes",
                                                     "BIL"))
 
-calculate_type_from_position <- function(position) {
-  if (position >=1  && position <= 8) {
-    return("Forward")
-  } else if (position >=9  && position <= 15) {
-    return("Back")
-  } else {
-    return(NA)
-  }
-}
 
-players <- tour_data %>% 
-  group_by(Player, Team) %>% 
-  mutate(PositionType = calculate_type_from_position(min(Position))) %>%
-  select(Player, Team, PositionType)
 
-players_with_position <- players %>% group_by(Player, Team, PositionType) %>% summarise()
+test_match_data <- tour_data %>% filter(Tour_Match %in% c("M7","M9","M10"))
 
-write.csv(players_with_position, file = "data/player_positions.csv")
+variable_name = 'Carries'
+png(paste("plots/TestMatch - ", variable_name, ".png"))
+ggplot(test_match_data, aes(x = Team, y = Carries, fill = Team)) + 
+  geom_bar(stat = "Identity") +
+  facet_wrap(~ Tour_Match) +
+  ggtitle(paste(variable_name," by Team")) +
+  scale_fill_manual(values=c("black", "red"))
+dev.off()  
+
+
+variable_name = 'Offloads'
+png(paste("plots/TestMatch - ", variable_name, ".png"))
+ggplot(test_match_data, aes(x = Team, y = Offloads, fill = Team)) + 
+  geom_bar(stat = "Identity") +
+  facet_wrap(~ Tour_Match) +
+  ggtitle(paste(variable_name," by Team")) +
+  scale_fill_manual(values=c("black", "red"))
+dev.off()  
+
+variable_name = 'Tackles'
+png(paste("plots/TestMatch - ", variable_name, ".png"))
+ggplot(test_match_data, aes(x = Team, y = Tackles, fill = Team)) + 
+  geom_bar(stat = "Identity") +
+  facet_wrap(~ Tour_Match) +
+  ggtitle(paste(variable_name," by Team")) +
+  scale_fill_manual(values=c("black", "red"))
+dev.off()  
+
+variable_name = 'Missed Tackles'
+png(paste("plots/TestMatch - ", variable_name, ".png"))
+ggplot(test_match_data, aes(x = Team, y = Missed_Tackles, fill = Team)) + 
+  geom_bar(stat = "Identity") +
+  facet_wrap(~ Tour_Match) +
+  ggtitle(paste(variable_name," by Team")) +
+  scale_fill_manual(values=c("black", "red"))
+dev.off()  
+
+variable_name = 'Passes'
+png(paste("plots/TestMatch - ", variable_name, ".png"))
+ggplot(test_match_data, aes(x = Team, y = Passes, fill = Team)) + 
+  geom_bar(stat = "Identity") +
+  facet_wrap(~ Tour_Match) +
+  ggtitle(paste(variable_name," by Team")) +
+  scale_fill_manual(values=c("black", "red"))
+dev.off()  
+
+variable_name = 'Turnovers Won'
+png(paste("plots/TestMatch - ", variable_name, ".png"))
+ggplot(test_match_data, aes(x = Team, y = Turnovers_Won, fill = Team)) + 
+  geom_bar(stat = "Identity") +
+  facet_wrap(~ Tour_Match) +
+  ggtitle(paste(variable_name," by Team")) +
+  scale_fill_manual(values=c("black", "red"))
+dev.off()  
+
+variable_name = 'Turnovers Conceded'
+png(paste("plots/TestMatch - ", variable_name, ".png"))
+ggplot(test_match_data, aes(x = Team, y = Turnovers_Conceded, fill = Team)) + 
+  geom_bar(stat = "Identity") +
+  facet_wrap(~ Tour_Match) +
+  ggtitle(paste(variable_name," by Team")) +
+  scale_fill_manual(values=c("black", "red"))
+dev.off()  
+
+variable_name = 'Defenders Beaten'
+png(paste("plots/TestMatch - ", variable_name, ".png"))
+ggplot(test_match_data, aes(x = Team, y = Defenders_Beaten, fill = Team)) + 
+  geom_bar(stat = "Identity") +
+  facet_wrap(~ Tour_Match) +
+  ggtitle(paste(variable_name," by Team")) +
+  scale_fill_manual(values=c("black", "red"))
+dev.off()  
+
+variable_name = 'Clean Breaks'
+png(paste("plots/TestMatch - ", variable_name, ".png"))
+ggplot(test_match_data, aes(x = Team, y = Clean_Breaks, fill = Team)) + 
+  geom_bar(stat = "Identity") +
+  facet_wrap(~ Tour_Match) +
+  ggtitle(paste(variable_name," by Team")) +
+  scale_fill_manual(values=c("black", "red"))
+dev.off()  
+
+variable_name = 'Lineouts Won'
+png(paste("plots/TestMatch - ", variable_name, ".png"))
+ggplot(test_match_data, aes(x = Team, y = Lineouts_Won, fill = Team)) + 
+  geom_bar(stat = "Identity") +
+  facet_wrap(~ Tour_Match) +
+  ggtitle(paste(variable_name," by Team")) +
+  scale_fill_manual(values=c("black", "red"))
+dev.off()  
+
+variable_name = 'Lineouts Stolen'
+png(paste("plots/TestMatch - ", variable_name, ".png"))
+ggplot(test_match_data, aes(x = Team, y = Lineouts_Stolen, fill = Team)) + 
+  geom_bar(stat = "Identity") +
+  facet_wrap(~ Tour_Match) +
+  ggtitle(paste(variable_name," by Team")) +
+  scale_fill_manual(values=c("black", "red"))
+dev.off()  
 
 
 # 
