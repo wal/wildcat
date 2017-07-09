@@ -23,7 +23,7 @@ process_performance_table <- function(performance_table, match_file) {
   performance_data$match_html_file = match_file
   
   # Figure out which tour match from the file name and add it as a variable
-  performance_data <- performance_data %>% mutate(Game = NA,Game = str_match(match_html_file, "M(10|[0-9])")[,1])
+  performance_data <- performance_data %>% mutate(Game = NA,Game = str_match(match_html_file, "M(10|[0-9]){1}")[,1])
   
   # Clean up player name (as field in table includes substitution info)
   # TODO - Infer minutes played from substitution info
@@ -48,7 +48,7 @@ for(i in 1:length(html_files)) {
   # Opposiion stats
   opposition_performance_table <- load_performance_table(match_html,  '//*[@id="sotic_wp_widget-39-content"]/div/div[2]/div[1]/div/table')
   opposition_performance_data <- process_performance_table(opposition_performance_table, match_file)
-
+  
   # Locate opposition name from file name
   opposition = str_match(match_file, "British & Irish Lions _ (.*) v")[,2]
   opposition = str_trim(opposition)
@@ -63,7 +63,7 @@ names(tour_data) <- c("Position", "Player", "Metres_Gained", "Carries", "Passes"
 # More useful data types
 # Factors
 tour_data$Player <- as.factor(tour_data$Player)
-tour_data$Tour_Match <- as.factor(tour_data$Tour_Match)
+tour_data$Tour_Match <- factor(tour_data$Tour_Match, levels =  c("M1", "M2", "M3", "M4", "M5", "M6", "M7","M8","M9","M10"))
 tour_data$Team <- as.factor(tour_data$Team)
 
 # Numbers
@@ -82,9 +82,34 @@ tour_data$Clean_Breaks <- as.numeric(tour_data$Clean_Breaks)
 tour_data$Lineouts_Won <- as.numeric(tour_data$Lineouts_Won)
 tour_data$Lineouts_Stolen <- as.numeric(tour_data$Lineouts_Stolen)
 
+# # Re-Arrange columns
+# tour_data <- tour_data %>% select(Position,
+#                                   Player,
+#                                   Tour_Match,
+#                                   Team,
+#                                   Metres_Gained,
+#                                   Carries,
+#                                   Passes,
+#                                   Tackles,
+#                                   Missed_Tackles,
+#                                   Turnovers_Won,
+#                                   Turnovers_Conceded,
+#                                   Defenders_Beaten,
+#                                   Try_Assists,
+#                                   Offloads,
+#                                   Clean_Breaks,
+#                                   Lineouts_Won,
+#                                   Lineouts_Stolen,
+#                                   Match_Data_File)
+
+#tour_data <- tour_data %>% order(Tour_Match)
+
 write.csv(tour_data, file = "data/lions_tour_performance_data.csv")
 save(tour_data,file="data/lions_tour_performance_data.Rda")
 
 
+tour_players <- tour_data %>% group_by(Player) %>% select(Player, Position, Team)
+unique_players <- unique(tour_players$Player)
 
-  
+summary(unique_players)
+
