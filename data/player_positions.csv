@@ -1,242 +1,242 @@
 ,Player,Team,PositionType
-2,Aaron Smith ,New Zealand,Back
 13,Anthony Watson,BIL,Back
-14,Anton Lienert-Brown,New Zealand,Back
-19,Augustine Pulu ,Blues,Back
-20,Beauden Barrett,New Zealand,Back
-24,Ben Smith ,New Zealand,Back
 25,Ben Te'o,BIL,Back
-29,Bryn Gatland ,NZ Provincial Barbarians,Back
-30,Bryn Hall ,Crusaders,Back
-35,Charlie Ngatai,Maori All Blacks,Back
-36,Chase Tiatia ,Chiefs,Back
 42,Conor Murray,BIL,Back
-44,Cory Jane ,Hurricanes,Back
-46,Damian McKenzie ,Maori All Blacks,Back
 47,Dan Biggar,BIL,Back
-50,David Kaetau Havili,Crusaders,Back
-53,Dwayne Sweeney,NZ Provincial Barbarians,Back
 54,Elliot Daly,BIL,Back
-57,Finlay Christie ,Chiefs,Back
 58,Finn Russell,BIL,Back
 59,Gareth Davies,BIL,Back
-61,George Bridge ,Crusaders,Back
-63,George Moala ,Blues,Back
 64,George North,BIL,Back
 67,Greig Laidlaw,BIL,Back
-72,Ihaia West ,Blues,Back
-74,Israel Dagg,Crusaders,Back
-75,Israel Dagg,New Zealand,Back
-76,Jack Goodhue,Crusaders,Back
 78,Jack Nowell,BIL,Back
-79,Jack Stratton ,NZ Provincial Barbarians,Back
-84,James Lowe,Maori All Blacks,Back
 88,Jared Payne,BIL,Back
 99,Jonathan Davies,BIL,Back
-100,Jonathan Faauli,Chiefs,Back
 101,Jonathan Joseph,BIL,Back
 102,Jonathan Sexton,BIL,Back
-103,Jonathan Taumateine ,Chiefs,Back
-106,Jordie Barrett,Hurricanes,Back
-105,Jordie Barrett,New Zealand,Back
-109,Josh Renton ,Highlanders,Back
-112,Julian Savea ,Hurricanes,Back
-111,Julian Savea ,New Zealand,Back
-117,Kaveinga Finau ,NZ Provincial Barbarians,Back
-118,Kayne Hammington ,Highlanders,Back
-120,Kemara Hauiti-Parapara ,Hurricanes,Back
 128,Leigh Halfpenny,BIL,Back
 135,Liam Williams,BIL,Back
-136,Lima Sopoaga ,Highlanders,Back
-139,Luteru Laulala,NZ Provincial Barbarians,Back
-140,Luteru Laulala ,Chiefs,Back
-142,Malakai Fekitoa ,Highlanders,Back
-148,Marty Banks ,Highlanders,Back
-149,Matt Duffie ,Blues,Back
-151,Matt Proctor ,Maori All Blacks,Back
-155,Michael Collins,Blues,Back
-157,Mitch Hunt ,Crusaders,Back
-160,Mitchell Drummond ,Crusaders,Back
-164,Nehe Milner-Skudder,Hurricanes,Back
-163,Nehe Milner-Skudder,Maori All Blacks,Back
-166,Ngani Laumape,Hurricanes,Back
-167,Ngani Laumape ,New Zealand,Back
-170,Otere Black ,Hurricanes,Back
 171,Owen Farrell,BIL,Back
-174,Patrick Osborne ,Highlanders,Back
 179,Rhys Webb,BIL,Back
-180,Richard Buckman,Highlanders,Back
-182,Richie Mo'unga ,Crusaders,Back
-184,Rieko Ioane,Blues,Back
-185,Rieko Ioane,Maori All Blacks,Back
-186,Rieko Ioane,New Zealand,Back
 188,Robbie Henshaw,BIL,Back
-191,Ryan Crotty ,New Zealand,Back
+218,Stuart Hogg,BIL,Back
+233,Tommy Seymour,BIL,Back
+19,Augustine Pulu ,Blues,Back
+63,George Moala ,Blues,Back
+72,Ihaia West ,Blues,Back
+149,Matt Duffie ,Blues,Back
+155,Michael Collins,Blues,Back
+184,Rieko Ioane,Blues,Back
 196,Sam Nock ,Blues,Back
-197,Sam Vaka,NZ Provincial Barbarians,Back
-205,Seta Tamanivalu,Crusaders,Back
-206,Sevu Reece,NZ Provincial Barbarians,Back
+213,Sonny Bill Williams,Blues,Back
+216,Stephen Perofeta ,Blues,Back
+228,Tinoai Faiane ,Blues,Back
+36,Chase Tiatia ,Chiefs,Back
+57,Finlay Christie ,Chiefs,Back
+100,Jonathan Faauli,Chiefs,Back
+103,Jonathan Taumateine ,Chiefs,Back
+140,Luteru Laulala ,Chiefs,Back
 207,Shaun Stevenson,Chiefs,Back
 212,Solomona Alaimalo ,Chiefs,Back
-213,Sonny Bill Williams,Blues,Back
-214,Sonny Bill Williams,New Zealand,Back
 215,Stephen Donald,Chiefs,Back
-216,Stephen Perofeta ,Blues,Back
-218,Stuart Hogg,BIL,Back
-221,Tawera Kerr-Barlow ,Maori All Blacks,Back
-222,Te Toiroa Tahuriorangi ,Hurricanes,Back
+227,Tim Nanai-Williams,Chiefs,Back
+234,Toni Pulu ,Chiefs,Back
+30,Bryn Hall ,Crusaders,Back
+50,David Kaetau Havili,Crusaders,Back
+61,George Bridge ,Crusaders,Back
+74,Israel Dagg,Crusaders,Back
+76,Jack Goodhue,Crusaders,Back
+157,Mitch Hunt ,Crusaders,Back
+160,Mitchell Drummond ,Crusaders,Back
+182,Richie Mo'unga ,Crusaders,Back
+205,Seta Tamanivalu,Crusaders,Back
+226,Tim Bateman ,Crusaders,Back
+109,Josh Renton ,Highlanders,Back
+118,Kayne Hammington ,Highlanders,Back
+136,Lima Sopoaga ,Highlanders,Back
+142,Malakai Fekitoa ,Highlanders,Back
+148,Marty Banks ,Highlanders,Back
+174,Patrick Osborne ,Highlanders,Back
+180,Richard Buckman,Highlanders,Back
 223,Teihorangi Walden,Highlanders,Back
 224,Tevita Li ,Highlanders,Back
-226,Tim Bateman ,Crusaders,Back
-227,Tim Nanai-Williams,Chiefs,Back
-228,Tinoai Faiane ,Blues,Back
-233,Tommy Seymour,BIL,Back
-234,Toni Pulu ,Chiefs,Back
-236,Vince Aso,Hurricanes,Back
 237,Waisake Naholo,Highlanders,Back
-238,Waisake Naholo ,New Zealand,Back
+44,Cory Jane ,Hurricanes,Back
+106,Jordie Barrett,Hurricanes,Back
+112,Julian Savea ,Hurricanes,Back
+120,Kemara Hauiti-Parapara ,Hurricanes,Back
+164,Nehe Milner-Skudder,Hurricanes,Back
+166,Ngani Laumape,Hurricanes,Back
+170,Otere Black ,Hurricanes,Back
+222,Te Toiroa Tahuriorangi ,Hurricanes,Back
+236,Vince Aso,Hurricanes,Back
 239,Wes Goosen ,Hurricanes,Back
-3,Aidan Ross ,NZ Provincial Barbarians,Forward
-4,Aidan Ross ,Chiefs,Forward
-5,Aki Seiuli ,Highlanders,Forward
-6,Akira Ioane,Blues,Forward
-7,Akira Ioane,Maori All Blacks,Forward
-8,Alex Ainley ,Highlanders,Forward
-9,Alex Hodgman ,Blues,Forward
+35,Charlie Ngatai,Maori All Blacks,Back
+46,Damian McKenzie ,Maori All Blacks,Back
+84,James Lowe,Maori All Blacks,Back
+151,Matt Proctor ,Maori All Blacks,Back
+163,Nehe Milner-Skudder,Maori All Blacks,Back
+185,Rieko Ioane,Maori All Blacks,Back
+221,Tawera Kerr-Barlow ,Maori All Blacks,Back
+31,Bryn Hall ,Maori All Blacks,Back
+73,Ihaia West ,Maori All Blacks,Back
+187,Rob Thompson ,Maori All Blacks,Back
+2,Aaron Smith ,New Zealand,Back
+14,Anton Lienert-Brown,New Zealand,Back
+20,Beauden Barrett,New Zealand,Back
+24,Ben Smith ,New Zealand,Back
+75,Israel Dagg,New Zealand,Back
+105,Jordie Barrett,New Zealand,Back
+111,Julian Savea ,New Zealand,Back
+167,Ngani Laumape ,New Zealand,Back
+186,Rieko Ioane,New Zealand,Back
+191,Ryan Crotty ,New Zealand,Back
+214,Sonny Bill Williams,New Zealand,Back
+238,Waisake Naholo ,New Zealand,Back
+1,Aaron Cruden ,New Zealand,Back
+15,Anton Lienert-Brown ,New Zealand,Back
+143,Malakai Fekitoa ,New Zealand,Back
+229,TJ Perenara ,New Zealand,Back
+29,Bryn Gatland ,NZ Provincial Barbarians,Back
+53,Dwayne Sweeney,NZ Provincial Barbarians,Back
+79,Jack Stratton ,NZ Provincial Barbarians,Back
+117,Kaveinga Finau ,NZ Provincial Barbarians,Back
+139,Luteru Laulala,NZ Provincial Barbarians,Back
+197,Sam Vaka,NZ Provincial Barbarians,Back
+206,Sevu Reece,NZ Provincial Barbarians,Back
+97,Joe Webber ,NZ Provincial Barbarians,Back
+98,Jonah Lowe ,NZ Provincial Barbarians,Back
+176,Peter Rowe ,NZ Provincial Barbarians,Back
+181,Richard Judd ,NZ Provincial Barbarians,Back
 10,Allan Dell,BIL,Forward
 11,Alun Wyn Jones,BIL,Forward
-17,Ash Dixon ,Maori All Blacks,Forward
-18,Atunaisa Moli ,Chiefs,Forward
-21,Ben Funnell ,Crusaders,Forward
-23,Ben May ,Hurricanes,Forward
-22,Ben May ,Maori All Blacks,Forward
-26,Blake Gibson ,Blues,Forward
-27,Brad Shields ,Hurricanes,Forward
-28,Brodie Retallick,New Zealand,Forward
-32,Callum Gibbins,Hurricanes,Forward
-33,Charlie Faumuina ,Blues,Forward
-38,Chris Eves ,Hurricanes,Forward
 39,CJ Stander,BIL,Forward
-40,Codie Taylor ,Crusaders,Forward
-41,Codie Taylor ,New Zealand,Forward
 43,Cory Hill,BIL,Forward
 45,Courtney Lawes,BIL,Forward
 48,Dan Cole,BIL,Forward
-49,Dan Lienert-Brown ,Highlanders,Forward
-51,Dillon Hunt ,Highlanders,Forward
-52,Dominic Bird,Chiefs,Forward
-55,Elliot Dixon ,Maori All Blacks,Forward
-56,Epalahame Faiva ,Blues,Forward
-60,Gareth Evans,Highlanders,Forward
 62,George Kruis,BIL,Forward
-65,Gerard Cowley-Tuioti ,Blues,Forward
-66,Greg Pleasants-Tate ,Highlanders,Forward
-68,Heiden Bedwell-Curtis ,Crusaders,Forward
-70,Hikawera Elliot ,Chiefs,Forward
 71,Iain Henderson,BIL,Forward
 77,Jack McGrath,BIL,Forward
-80,Jackson Hemopo,Highlanders,Forward
-81,James Blackwell,Hurricanes,Forward
 82,James Haskell,BIL,Forward
-83,James Lentjes ,Highlanders,Forward
-85,James Parsons ,Blues,Forward
-86,James Tucker ,NZ Provincial Barbarians,Forward
 87,Jamie George,BIL,Forward
-89,Jed Brown ,Crusaders,Forward
-90,Jeff Toomaga-Allen,Hurricanes,Forward
-91,Jerome Kaino,New Zealand,Forward
-92,Jerome Kaino ,New Zealand,Forward
-93,Jimmy Tupou ,Blues,Forward
 94,Joe Marler,BIL,Forward
-95,Joe Moody ,Crusaders,Forward
-96,Joe Moody ,New Zealand,Forward
-104,Jordan Taufua,Crusaders,Forward
-107,Joseph Wheeler ,Maori All Blacks,Forward
-108,Josh Dickson ,Highlanders,Forward
-110,Joshua Goodhue,NZ Provincial Barbarians,Forward
 113,Justin Tipuric,BIL,Forward
-114,Kane Hames ,Maori All Blacks,Forward
-115,Kara Pryor ,Blues,Forward
-119,Keepa Mewett ,NZ Provincial Barbarians,Forward
 121,Ken Owens,BIL,Forward
-122,Kieran Read,New Zealand,Forward
-123,Kieran Read ,New Zealand,Forward
 124,Kristian Dacey,BIL,Forward
 125,Kyle Sinckler,BIL,Forward
-126,Lachlan Boshier,Chiefs,Forward
-127,Lachlan Boshier ,NZ Provincial Barbarians,Forward
-130,Leni Apisai ,Hurricanes,Forward
-131,Liam Coltman ,Highlanders,Forward
-132,Liam Messam,Maori All Blacks,Forward
-133,Liam Messam ,Chiefs,Forward
-134,Liam Polwart ,Chiefs,Forward
-137,Luke Romano ,Crusaders,Forward
-138,Luke Whitelock,Highlanders,Forward
 141,Mako Vunipola,BIL,Forward
-146,Mark Abbott,Hurricanes,Forward
 147,Maro Itoje,BIL,Forward
-152,Matt Todd,Crusaders,Forward
-153,Michael Alaalatoa ,Crusaders,Forward
-154,Michael Allardice ,Chiefs,Forward
-156,Michael Kainga,Hurricanes,Forward
-158,Mitch Karpik ,Chiefs,Forward
-159,Mitchell Brown,Chiefs,Forward
-161,Mitchell Dunshea,NZ Provincial Barbarians,Forward
-165,Nepo Laulala ,Chiefs,Forward
-168,Ofa Tu'ungafasi ,Blues,Forward
-169,Oli Jager ,NZ Provincial Barbarians,Forward
-172,Owen Franks ,Crusaders,Forward
-173,Owen Franks ,New Zealand,Forward
 175,Peter O'Mahony,BIL,Forward
-177,Quinten Strange ,Crusaders,Forward
-178,Reed Prinsep ,Hurricanes,Forward
-183,Ricky Riccitelli ,Hurricanes,Forward
 189,Rory Best,BIL,Forward
 190,Ross Moriarty,BIL,Forward
-192,Sam Anderson-Heather ,NZ Provincial Barbarians,Forward
-193,Sam Cane,New Zealand,Forward
-194,Sam Cane ,New Zealand,Forward
-195,Sam Lousi,Hurricanes,Forward
 198,Sam Warburton,BIL,Forward
-199,Sam Whitelock,Crusaders,Forward
-200,Sam Whitelock,New Zealand,Forward
-201,Sam Whitelock ,New Zealand,Forward
-203,Scott Scrafton,Blues,Forward
 204,Sean O'Brien,BIL,Forward
-208,Siate Tokolahi ,Highlanders,Forward
-209,Siegfried Fisi'ihoi ,Chiefs,Forward
-210,Sione Mafileo ,Blues,Forward
-211,Siua Halanukonuka ,Highlanders,Forward
-217,Steven Luatua,Blues,Forward
 219,Tadhg Furlong,BIL,Forward
 220,Taulupe Faletau,BIL,Forward
-225,Thomas Franklin,Maori All Blacks,Forward
-231,Tom Sanders ,Chiefs,Forward
 232,Tomas Francis,BIL,Forward
-235,Vaea Fifita,Hurricanes,Forward
+6,Akira Ioane,Blues,Forward
+9,Alex Hodgman ,Blues,Forward
+26,Blake Gibson ,Blues,Forward
+33,Charlie Faumuina ,Blues,Forward
+56,Epalahame Faiva ,Blues,Forward
+65,Gerard Cowley-Tuioti ,Blues,Forward
+85,James Parsons ,Blues,Forward
+93,Jimmy Tupou ,Blues,Forward
+115,Kara Pryor ,Blues,Forward
+168,Ofa Tu'ungafasi ,Blues,Forward
+203,Scott Scrafton,Blues,Forward
+210,Sione Mafileo ,Blues,Forward
+217,Steven Luatua,Blues,Forward
+4,Aidan Ross ,Chiefs,Forward
+18,Atunaisa Moli ,Chiefs,Forward
+52,Dominic Bird,Chiefs,Forward
+70,Hikawera Elliot ,Chiefs,Forward
+126,Lachlan Boshier,Chiefs,Forward
+133,Liam Messam ,Chiefs,Forward
+134,Liam Polwart ,Chiefs,Forward
+154,Michael Allardice ,Chiefs,Forward
+158,Mitch Karpik ,Chiefs,Forward
+159,Mitchell Brown,Chiefs,Forward
+165,Nepo Laulala ,Chiefs,Forward
+209,Siegfried Fisi'ihoi ,Chiefs,Forward
+231,Tom Sanders ,Chiefs,Forward
+21,Ben Funnell ,Crusaders,Forward
+40,Codie Taylor ,Crusaders,Forward
+68,Heiden Bedwell-Curtis ,Crusaders,Forward
+89,Jed Brown ,Crusaders,Forward
+95,Joe Moody ,Crusaders,Forward
+104,Jordan Taufua,Crusaders,Forward
+137,Luke Romano ,Crusaders,Forward
+152,Matt Todd,Crusaders,Forward
+153,Michael Alaalatoa ,Crusaders,Forward
+172,Owen Franks ,Crusaders,Forward
+177,Quinten Strange ,Crusaders,Forward
+199,Sam Whitelock,Crusaders,Forward
 240,Wyatt Crockett ,Crusaders,Forward
-1,Aaron Cruden ,New Zealand,Back
-12,Andrew Makalio ,NZ Provincial Barbarians,Forward
-15,Anton Lienert-Brown ,New Zealand,Back
-16,Ardie Savea ,New Zealand,Forward
-31,Bryn Hall ,Maori All Blacks,Back
-34,Charlie Faumuina ,New Zealand,Forward
+5,Aki Seiuli ,Highlanders,Forward
+8,Alex Ainley ,Highlanders,Forward
+49,Dan Lienert-Brown ,Highlanders,Forward
+51,Dillon Hunt ,Highlanders,Forward
+60,Gareth Evans,Highlanders,Forward
+66,Greg Pleasants-Tate ,Highlanders,Forward
+80,Jackson Hemopo,Highlanders,Forward
+83,James Lentjes ,Highlanders,Forward
+108,Josh Dickson ,Highlanders,Forward
+131,Liam Coltman ,Highlanders,Forward
+138,Luke Whitelock,Highlanders,Forward
+208,Siate Tokolahi ,Highlanders,Forward
+211,Siua Halanukonuka ,Highlanders,Forward
+23,Ben May ,Hurricanes,Forward
+27,Brad Shields ,Hurricanes,Forward
+32,Callum Gibbins,Hurricanes,Forward
+38,Chris Eves ,Hurricanes,Forward
+81,James Blackwell,Hurricanes,Forward
+90,Jeff Toomaga-Allen,Hurricanes,Forward
+130,Leni Apisai ,Hurricanes,Forward
+146,Mark Abbott,Hurricanes,Forward
+156,Michael Kainga,Hurricanes,Forward
+178,Reed Prinsep ,Hurricanes,Forward
+183,Ricky Riccitelli ,Hurricanes,Forward
+195,Sam Lousi,Hurricanes,Forward
+235,Vaea Fifita,Hurricanes,Forward
+7,Akira Ioane,Maori All Blacks,Forward
+17,Ash Dixon ,Maori All Blacks,Forward
+22,Ben May ,Maori All Blacks,Forward
+55,Elliot Dixon ,Maori All Blacks,Forward
+107,Joseph Wheeler ,Maori All Blacks,Forward
+114,Kane Hames ,Maori All Blacks,Forward
+132,Liam Messam,Maori All Blacks,Forward
+225,Thomas Franklin,Maori All Blacks,Forward
 37,Chris Eves ,Maori All Blacks,Forward
 69,Hikawera Elliot ,Maori All Blacks,Forward
-73,Ihaia West ,Maori All Blacks,Back
-97,Joe Webber ,NZ Provincial Barbarians,Back
-98,Jonah Lowe ,NZ Provincial Barbarians,Back
 116,Kara Pryor ,Maori All Blacks,Forward
 129,Leighton Price ,Maori All Blacks,Forward
-143,Malakai Fekitoa ,New Zealand,Back
 145,Marcel Renata ,Maori All Blacks,Forward
+28,Brodie Retallick,New Zealand,Forward
+41,Codie Taylor ,New Zealand,Forward
+91,Jerome Kaino,New Zealand,Forward
+92,Jerome Kaino ,New Zealand,Forward
+96,Joe Moody ,New Zealand,Forward
+122,Kieran Read,New Zealand,Forward
+123,Kieran Read ,New Zealand,Forward
+173,Owen Franks ,New Zealand,Forward
+193,Sam Cane,New Zealand,Forward
+194,Sam Cane ,New Zealand,Forward
+200,Sam Whitelock,New Zealand,Forward
+201,Sam Whitelock ,New Zealand,Forward
+16,Ardie Savea ,New Zealand,Forward
+34,Charlie Faumuina ,New Zealand,Forward
+162,Nathan Harris ,New Zealand,Forward
+202,Scott Barrett ,New Zealand,Forward
+241,Wyatt Crockett ,New Zealand,Forward
+3,Aidan Ross ,NZ Provincial Barbarians,Forward
+86,James Tucker ,NZ Provincial Barbarians,Forward
+110,Joshua Goodhue,NZ Provincial Barbarians,Forward
+119,Keepa Mewett ,NZ Provincial Barbarians,Forward
+127,Lachlan Boshier ,NZ Provincial Barbarians,Forward
+161,Mitchell Dunshea,NZ Provincial Barbarians,Forward
+169,Oli Jager ,NZ Provincial Barbarians,Forward
+192,Sam Anderson-Heather ,NZ Provincial Barbarians,Forward
+12,Andrew Makalio ,NZ Provincial Barbarians,Forward
 144,Marcel Renata ,NZ Provincial Barbarians,Forward
 150,Matt Matich ,NZ Provincial Barbarians,Forward
-162,Nathan Harris ,New Zealand,Forward
-176,Peter Rowe ,NZ Provincial Barbarians,Back
-181,Richard Judd ,NZ Provincial Barbarians,Back
-187,Rob Thompson ,Maori All Blacks,Back
-202,Scott Barrett ,New Zealand,Forward
-229,TJ Perenara ,New Zealand,Back
 230,Tolu Fahamokioa ,NZ Provincial Barbarians,Forward
-241,Wyatt Crockett ,New Zealand,Forward
