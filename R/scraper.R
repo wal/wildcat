@@ -82,27 +82,27 @@ tour_data$Clean_Breaks <- as.numeric(tour_data$Clean_Breaks)
 tour_data$Lineouts_Won <- as.numeric(tour_data$Lineouts_Won)
 tour_data$Lineouts_Stolen <- as.numeric(tour_data$Lineouts_Stolen)
 
-# # Re-Arrange columns
-# tour_data <- tour_data %>% select(Position,
-#                                   Player,
-#                                   Tour_Match,
-#                                   Team,
-#                                   Metres_Gained,
-#                                   Carries,
-#                                   Passes,
-#                                   Tackles,
-#                                   Missed_Tackles,
-#                                   Turnovers_Won,
-#                                   Turnovers_Conceded,
-#                                   Defenders_Beaten,
-#                                   Try_Assists,
-#                                   Offloads,
-#                                   Clean_Breaks,
-#                                   Lineouts_Won,
-#                                   Lineouts_Stolen,
-#                                   Match_Data_File)
+# Re-Arrange columns
+tour_data <- tour_data %>% select(Position,
+                                  Player,
+                                  Tour_Match,
+                                  Team,
+                                  Metres_Gained,
+                                  Carries,
+                                  Passes,
+                                  Tackles,
+                                  Missed_Tackles,
+                                  Turnovers_Won,
+                                  Turnovers_Conceded,
+                                  Defenders_Beaten,
+                                  Try_Assists,
+                                  Offloads,
+                                  Clean_Breaks,
+                                  Lineouts_Won,
+                                  Lineouts_Stolen,
+                                  Match_Data_File)
 
-#tour_data <- tour_data %>% order(Tour_Match)
+tour_data <- tour_data %>% arrange(Tour_Match)
 
 write.csv(tour_data, file = "data/lions_tour_performance_data.csv")
 save(tour_data,file="data/lions_tour_performance_data.Rda")
