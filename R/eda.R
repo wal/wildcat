@@ -21,7 +21,7 @@ tour_data$Team <- factor(tour_data$Team, levels = c("NZ Provincial Barbarians",
 test_match_data <- tour_data %>% filter(Tour_Match %in% c("M7","M9","M10"))
 
 variable_name = 'Carries'
-png(paste("plots/TestMatch - ", variable_name, ".png"))
+png(paste("plots/TestMatch-",str_replace(variable_name, " ", "_"),".png", sep=""))
 ggplot(test_match_data, aes(x = Team, y = Carries, fill = Team)) + 
   geom_bar(stat = "Identity") +
   facet_wrap(~ Tour_Match) +
@@ -31,7 +31,7 @@ dev.off()
 
 
 variable_name = 'Offloads'
-png(paste("plots/TestMatch - ", variable_name, ".png"))
+png(paste("plots/TestMatch-",str_replace(variable_name, " ", "_"),".png", sep=""))
 ggplot(test_match_data, aes(x = Team, y = Offloads, fill = Team)) + 
   geom_bar(stat = "Identity") +
   facet_wrap(~ Tour_Match) +
@@ -40,7 +40,7 @@ ggplot(test_match_data, aes(x = Team, y = Offloads, fill = Team)) +
 dev.off()  
 
 variable_name = 'Tackles'
-png(paste("plots/TestMatch - ", variable_name, ".png"))
+png(paste("plots/TestMatch-",str_replace(variable_name, " ", "_"),".png", sep=""))
 ggplot(test_match_data, aes(x = Team, y = Tackles, fill = Team)) + 
   geom_bar(stat = "Identity") +
   facet_wrap(~ Tour_Match) +
@@ -49,7 +49,7 @@ ggplot(test_match_data, aes(x = Team, y = Tackles, fill = Team)) +
 dev.off()  
 
 variable_name = 'Missed Tackles'
-png(paste("plots/TestMatch - ", variable_name, ".png"))
+png(paste("plots/TestMatch-",str_replace(variable_name, " ", "_"),".png", sep=""))
 ggplot(test_match_data, aes(x = Team, y = Missed_Tackles, fill = Team)) + 
   geom_bar(stat = "Identity") +
   facet_wrap(~ Tour_Match) +
@@ -58,7 +58,7 @@ ggplot(test_match_data, aes(x = Team, y = Missed_Tackles, fill = Team)) +
 dev.off()  
 
 variable_name = 'Passes'
-png(paste("plots/TestMatch - ", variable_name, ".png"))
+png(paste("plots/TestMatch-",str_replace(variable_name, " ", "_"),".png", sep=""))
 ggplot(test_match_data, aes(x = Team, y = Passes, fill = Team)) + 
   geom_bar(stat = "Identity") +
   facet_wrap(~ Tour_Match) +
@@ -67,7 +67,7 @@ ggplot(test_match_data, aes(x = Team, y = Passes, fill = Team)) +
 dev.off()  
 
 variable_name = 'Turnovers Won'
-png(paste("plots/TestMatch - ", variable_name, ".png"))
+png(paste("plots/TestMatch-",str_replace(variable_name, " ", "_"),".png", sep=""))
 ggplot(test_match_data, aes(x = Team, y = Turnovers_Won, fill = Team)) + 
   geom_bar(stat = "Identity") +
   facet_wrap(~ Tour_Match) +
@@ -76,7 +76,7 @@ ggplot(test_match_data, aes(x = Team, y = Turnovers_Won, fill = Team)) +
 dev.off()  
 
 variable_name = 'Turnovers Conceded'
-png(paste("plots/TestMatch - ", variable_name, ".png"))
+png(paste("plots/TestMatch-",str_replace(variable_name, " ", "_"),".png", sep=""))
 ggplot(test_match_data, aes(x = Team, y = Turnovers_Conceded, fill = Team)) + 
   geom_bar(stat = "Identity") +
   facet_wrap(~ Tour_Match) +
@@ -85,7 +85,7 @@ ggplot(test_match_data, aes(x = Team, y = Turnovers_Conceded, fill = Team)) +
 dev.off()  
 
 variable_name = 'Defenders Beaten'
-png(paste("plots/TestMatch - ", variable_name, ".png"))
+png(paste("plots/TestMatch-",str_replace(variable_name, " ", "_"),".png", sep=""))
 ggplot(test_match_data, aes(x = Team, y = Defenders_Beaten, fill = Team)) + 
   geom_bar(stat = "Identity") +
   facet_wrap(~ Tour_Match) +
@@ -94,7 +94,7 @@ ggplot(test_match_data, aes(x = Team, y = Defenders_Beaten, fill = Team)) +
 dev.off()  
 
 variable_name = 'Clean Breaks'
-png(paste("plots/TestMatch - ", variable_name, ".png"))
+png(paste("plots/TestMatch-",str_replace(variable_name, " ", "_"),".png", sep=""))
 ggplot(test_match_data, aes(x = Team, y = Clean_Breaks, fill = Team)) + 
   geom_bar(stat = "Identity") +
   facet_wrap(~ Tour_Match) +
@@ -103,7 +103,7 @@ ggplot(test_match_data, aes(x = Team, y = Clean_Breaks, fill = Team)) +
 dev.off()  
 
 variable_name = 'Lineouts Won'
-png(paste("plots/TestMatch - ", variable_name, ".png"))
+png(paste("plots/TestMatch-",str_replace(variable_name, " ", "_"),".png", sep=""))
 ggplot(test_match_data, aes(x = Team, y = Lineouts_Won, fill = Team)) + 
   geom_bar(stat = "Identity") +
   facet_wrap(~ Tour_Match) +
@@ -112,7 +112,7 @@ ggplot(test_match_data, aes(x = Team, y = Lineouts_Won, fill = Team)) +
 dev.off()  
 
 variable_name = 'Lineouts Stolen'
-png(paste("plots/TestMatch - ", variable_name, ".png"))
+png(paste("plots/TestMatch-",str_replace(variable_name, " ", "_"),".png", sep=""))
 ggplot(test_match_data, aes(x = Team, y = Lineouts_Stolen, fill = Team)) + 
   geom_bar(stat = "Identity") +
   facet_wrap(~ Tour_Match) +
